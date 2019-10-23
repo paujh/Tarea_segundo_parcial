@@ -32,12 +32,12 @@ with open("Lista_ejercicio2.txt","r") as archivo:
     for j in range(len(lista_m)):
       if lista_nueva_m[i]==lista_m[j]:
         lista_materias.append(lista_n[j])
-    print("La materia " + str(lista_nueva_m[i]) + " tiene inscritos a los siguientes alumnos: " +  str(lista_materias))
+    print("La materia " + str(lista_nueva_m[i]) + " tiene inscritos a los siguientes alumnos: " +  str(lista_materias) + "\n")
   lista_alumno = []
   for i in range(len(lista_nueva_n)):
     lista_alumno = []
     for j in range(len(lista_n)):
       if lista_nueva_n[i]==lista_n[j]:
         lista_alumno.append(lista_m[j])
-    print("El alumno " + str(lista_nueva_n[i]) + " esta inscrito a las materias: " + str(lista_alumno)) 
+    print("El alumno " + str(lista_nueva_n[i]) + " esta inscrito a las materias: " + str(lista_alumno) + "\n") 
  
