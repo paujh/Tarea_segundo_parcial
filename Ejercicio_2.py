@@ -1,7 +1,6 @@
 # 2. 
 def alumnos_materias(doc):
   with open(doc,"r") as archivo:
-#Aqui ya estamos trabajando con un archivo en especifico, pero si recibe cualquier otro archivo con las mismas caracteristicas que este de prueba(dos columnas, una de nombres y otra de materias, separadas por un espacio), tambien funciona el codigo
     lista_t = []
     for linea in archivo:
       datos=linea.split()
