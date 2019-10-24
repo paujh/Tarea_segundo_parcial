@@ -5,6 +5,8 @@ def juntar_descendente(p1,p2):
   n = len(p1)
   m = len(p2)
   #Supondremos que la primer pila que recibimos es ascendente y la segunda descendente, siempre.
+  #Si no fuera el caso, tendriamos que poner una condicion para ver cual es la ascendente y cual la descendente
+  #Una vez puesto esa condicion, se tendrian casos y el codigo se modifica para cada caso correspondiente
   for i in range(m):
     p3.append(p2.pop())
   #print(p3)
