@@ -1,4 +1,4 @@
-# 2. Escribir un programa que lea un archivo que tiene parejas (alumno-materia) y genere dos tipos de listas: una con los alumnos inscritos en cada materia y otra en la cual se liste los cursos en los que esta inscrito cada alumno
+# 2. 
 with open("Lista_ejercicio2.txt","r") as archivo:
 #Aqui ya estamos trabajando con un archivo en especifico, pero si recibe cualquier otro archivo con las mismas caracteristicas que este de prueba(dos columnas, una de nombres y otra de materias, separadas por un espacio), tambien funciona el codigo
   lista_t = []
