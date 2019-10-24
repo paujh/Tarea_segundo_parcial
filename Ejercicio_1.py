@@ -2,7 +2,7 @@
 l1 = [1,1,2,3,3,5,5,7,7,7]
 l2 = [3,7,-2,8,1]
 
-# a) Escribe un programa que elimine los elementos repetidos 
+# a) 
 def eliminar_repetidos(lista):
   lista_nueva = []
   for i in lista:
