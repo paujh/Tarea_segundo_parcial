@@ -3,7 +3,7 @@ def alumnos_materias(doc):
   with open(doc,"r") as archivo:
     lista_t = []
     for linea in archivo:
-      datos=linea.split()
+      datos = linea.split()
       lista_t.append(datos)
     #print(lista_t)
     lista_n = []
@@ -33,7 +33,7 @@ def alumnos_materias(doc):
         if lista_nueva_m[i]==lista_m[j]:
           lista_materias.append(lista_n[j])
       print("La materia " + str(lista_nueva_m[i]) + " tiene inscritos a los siguientes alumnos: " +  str(lista_materias) + "\n")
-    lista_alumno = []
+    #Segunda lista, materias inscritas por cada alumno  
     for i in range(len(lista_nueva_n)):
       lista_alumno = []
       for j in range(len(lista_n)):
